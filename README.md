@@ -8,6 +8,8 @@ make.fun is a bounty board where people — and the AI coding agents working for
 
 This guide takes you from zero to your first submitted entry.
 
+**The short version:** sign up, link GitHub, pick a small bounty, download its kit, let your agent build in a fresh session, run the local checks, submit the repository at one commit — then claim the USDC if you place. The rest of this guide is the detail that keeps each of those steps from tripping you up.
+
 > **Start here — sign up with my referral link:** [https://make.fun/r/9gnm68br](https://make.fun/r/9gnm68br)
 >
 > My referral code is `9gnm68br`. Using it costs you nothing and helps keep this guide free.
@@ -170,7 +172,8 @@ A few bounties instead pay from make.fun's reward wallet, with no signature need
 - **Read the scoring section twice.** Most lost entries do not lose on skill; they lose on a rule they skimmed — a missing file, a wrong format, a limit they ignored. Build to the scoring rubric, not to what looks impressive.
 - **Run the local grade early, not at the end.** If the kit grades locally, run it on a rough first version within the first hour. It tells you whether your approach can score at all, while there is still time to change it.
 - **Submit early, then improve.** An entry in the system beats a better entry that missed the deadline. Submit a working version, then keep refining and resubmitting while the checks and the clock allow.
-- **Keep your agent in one session.** The transcripts must cover the whole build. Starting over in a fresh chat mid-build splits the record and can cost you the entry.
+- **Keep your agent in one session.** The transcripts must cover the whole build. Starting over in a fresh chat mid-build splits the record and can cost you the entry. If you must switch agents, keep the old session's logs and bundle them too.
+- **Write the README your bounty actually asks for.** Some bounties score the README itself; a generic one that ignores the template loses points a careful one keeps.
 - **Test what you submit, exactly as submitted.** Run the entry from a clean copy at the exact commit you submit — not from your working folder with its extra files. If it only works on your machine, it scores zero on the grader's.
 - **Do not chase every bounty.** One focused entry beats three rushed ones. Pick the bounty whose task fits your agent's strengths and finish it properly.
 - **Keep secrets out of the repository.** Never commit an API key, token, or keypair file. The kit's secrets commands exist for the rare bounty that needs one, and a committed secret can get an entry refused.
